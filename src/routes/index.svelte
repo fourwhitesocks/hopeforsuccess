@@ -48,6 +48,10 @@
 		JustFields.com for some of the JSON.
 		https://stackoverflow.com/questions/59665222/innerhtml-from-json-file
 	</p>
+	<p>
+		old [build] command = "npm run build" publish = "build/" functions = "functions/" from:
+		https://github.com/sveltejs/kit/issues/2523
+	</p>
 	<div class="fields">
 		<h2>My JSON fields</h2>
 		<!-- We can access the fileds default import which is an array directly in the code -->
