@@ -4,6 +4,10 @@
 
 <script>
 	import Counter from '$lib/Counter/index.svelte';
+
+	import fields from '$lib/data/fields.json';
+
+	//const post = group_1;
 </script>
 
 <svelte:head>
@@ -30,11 +34,34 @@
 		This is <strong>NEW!</strong>
 	</h3>
 	<h4>
-		This is <strong>MORE NEW!</strong>
+		Adding in some <strong>JSON</strong>
 	</h4>
 
 	<Counter />
 </section>
+
+<article>
+	<h3>This is from a blog post from Rodney Labs: https://rodneylab.com/sveltekit-json-import/</h3>
+	<h4>His github code for this is: https://github.com/rodneylab/sveltekit-json-import</h4>
+	<p>
+		In this learning example I used his blog post but for the fileds I used the application of
+		JustFields.com for some of the JSON.
+		https://stackoverflow.com/questions/59665222/innerhtml-from-json-file
+	</p>
+	<div class="fields">
+		<h2>My JSON fields</h2>
+		<!-- We can access the fileds default import which is an array directly in the code -->
+		{#each fields as { title, author, image, post_text }, index}
+			<h2>{author}</h2>
+			<p><strong>{title}</strong></p>
+
+			<!-- <p id="textField">{post_text}</p> -->
+			<p>{post_text} /></p>
+
+			<img src={image} alt="some alt text here" width="500" />
+		{/each}
+	</div>
+</article>
 
 <style>
 	section {
