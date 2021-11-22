@@ -1,0 +1,22 @@
+[
+    {
+        "species": "Boxer",
+        "age": "12",
+        "fav_food": "biscuits"
+    },
+    {
+        "species": "Dobe",
+        "age": "5",
+        "fav_food": "fish"
+    },
+    {
+        "species": "Shephard",
+        "age": "2",
+        "fav_food": "Cheese"
+    },
+    {
+        "species": "Border",
+        "age": "2",
+        "fav_food": ""
+    }
+]
