@@ -89,6 +89,12 @@
 
 	h1 {
 		width: 100%;
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-weight: 400;
+		font-size: 2rem;
 	}
 
 	.welcome {

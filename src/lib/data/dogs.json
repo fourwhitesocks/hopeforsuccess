@@ -18,5 +18,10 @@
         "species": "Border",
         "age": "2",
         "fav_food": ""
+    },
+    {
+        "species": "Husky",
+        "age": "4",
+        "fav_food": "Hot dogs"
     }
 ]
