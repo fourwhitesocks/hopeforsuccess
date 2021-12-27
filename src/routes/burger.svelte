@@ -1,15 +1,7 @@
 <script>
 	import BurgerMenu from 'svelte-burger-menu';
-	import { onMount } from 'svelte';
-	import { moveDown } from '../lib/gsap';
-
-	onMount(()=> {
-
-		moveDown()
-
-	})
-
-
+	//import { onMount } from 'svelte';
+	//import { moveDown } from '../lib/gsap';
 </script>
 
 <BurgerMenu>
@@ -19,9 +11,8 @@
 
 <h1 class="text">Hello GSAP is very moving!</h1>
 
-
-
-
 <style>
-	h2 {color: white;} 
+	h2 {
+		color: white;
+	}
 </style>
