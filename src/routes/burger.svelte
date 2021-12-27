@@ -1,6 +1,4 @@
 <script>
-	export const prerender = true;
-
 	import BurgerMenu from 'svelte-burger-menu';
 	import { onMount } from 'svelte';
 	import { moveDown } from '../lib/gsap';
