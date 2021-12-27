@@ -1,14 +1,13 @@
 <script>
+	export const prerender = true;
+
 	import BurgerMenu from 'svelte-burger-menu';
-	//import { onMount } from 'svelte';
-	//import { moveDown } from '../lib/gsap';
+	import { onMount } from 'svelte';
+	import { moveDown } from '../lib/gsap';
 
-	moveDown() {
-
-gsap.to('.text' , {y: 50, duration: 2})
-
-}
-
+	onMount(() => {
+		moveDown();
+	});
 </script>
 
 <BurgerMenu>
