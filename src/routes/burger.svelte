@@ -18,10 +18,6 @@
 <br />
 <br />
 
-<p>
-	Check this Repl out too: https://svelte.dev/repl/48e6aee735cb4dadb9dbb112143fe365?version=3.44.3
-</p>
-
 <div class="box" />
 
 <style>
