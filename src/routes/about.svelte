@@ -62,10 +62,10 @@
 <section>
 	<h2>Image block</h2>
 	<div class="photo">
-		<img src="https://source.unsplash.com/800x600/?nature,water" alt="random unsplash" />
+		<img src="./anns-back-yard.jpg" alt="yard" />
 
-		<img src="https://source.unsplash.com/guinea-pig-2400.jpg" width="" alt="guinea pic cutie" />
-		<img src="https://source.unsplash.com/LEWbO3MqUsM" alt="owl big eyes" />
+		<img src="./boat-office.jpg" width="" alt="boat office" />
+		<img src="./middlebass.jpg" alt="middlebass" />
 	</div>
 </section>
 
