@@ -62,7 +62,7 @@
 <section>
 	<h2>Image block</h2>
 	<div class="photo">
-		<img src srcset="anns-back-yard.jpg" alt="yard" />
+		<img src="anns-back-yard.jpg" alt="yard" />
 
 		<img src="boat-office.jpg" width="" alt="boat office" />
 		<img src="middlebass.jpg" alt="middlebass" />
