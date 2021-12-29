@@ -2,3 +2,9 @@
 command = "npm run build" 
 publish = "build/" 
 functions = "functions/"
+
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "[dqphd28vv]"

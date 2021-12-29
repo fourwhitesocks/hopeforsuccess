@@ -59,10 +59,32 @@
 	</p>
 </form>
 
+<section>
+	<h2>Image block</h2>
+	<div class="photo">
+		<img src="https://source.unsplash.com/800x600/?nature,water" alt="random unsplash" />
+
+		<img src="https://source.unsplash.com/guinea-pig-2400.jpg" width="" alt="guinea pic cutie" />
+		<img src="https://source.unsplash.com/LEWbO3MqUsM" alt="owl big eyes" />
+	</div>
+</section>
+
 <style>
 	.content {
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+	}
+
+	.photo {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-auto-flow: column;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
 	}
 </style>
