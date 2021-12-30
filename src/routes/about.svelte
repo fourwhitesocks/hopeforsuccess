@@ -62,10 +62,20 @@
 <section>
 	<h2>Image block</h2>
 	<div class="photo">
-		<img src="anns-back-yard.jpg" alt="yard" />
+		<img
+			src="https://res.cloudinary.com/dqphd28vv/image/upload/v1640818834/anns-back-yard_u6mjoe.jpg"
+			alt="yard"
+		/>
 
-		<img src="boat-office.jpg" width="" alt="boat office" />
-		<img src="middlebass.jpg" alt="middlebass" />
+		<img
+			src="https://res.cloudinary.com/dqphd28vv/image/upload/v1640818847/boat-office_os8adt.jpg"
+			width=""
+			alt="boat office"
+		/>
+		<img
+			src="https://res.cloudinary.com/dqphd28vv/image/upload/v1640818841/middlebass_mejtkg.jpg"
+			alt="middlebass"
+		/>
 	</div>
 </section>
 
