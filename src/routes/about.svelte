@@ -42,9 +42,13 @@
 </div>
 
 <!-- "/src/routes/test-form.svelte" -->
+
+<!---
 <form name="test" method="post" netlify>
 	<input type="hidden" name="form-name" value="test" />
-	<!-- <input type="text" name="bot-field" /> -->
+	<!-- <input type="text" name="bot-field" />this one orig commented out -->
+
+<!---needed 
 	<p>
 		<label>Your Name: <input type="text" name="name" /></label>
 	</p>
@@ -57,7 +61,7 @@
 	<p>
 		<button type="submit">Send</button>
 	</p>
-</form>
+</form> -->
 
 <section>
 	<h2>Image block</h2>
