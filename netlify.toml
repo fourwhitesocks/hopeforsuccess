@@ -8,4 +8,4 @@ functions = "functions/"
 
   [plugins.inputs]
   cloudName = "[dqphd28vv]"
-  deliveryType = "upload"
+  
