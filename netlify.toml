@@ -7,5 +7,5 @@ functions = "functions/"
   package = "netlify-plugin-cloudinary"
 
   [plugins.inputs]
-  cloudName = "[dqphd28vv]"
+  cloudName = "dqphd28vv"
   deliveryType = "upload"
