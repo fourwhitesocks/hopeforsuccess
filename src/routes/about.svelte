@@ -44,9 +44,9 @@
 <!-- "/src/routes/test-form.svelte" -->
 
 <form name="test" method="post" netlify-honeypot="bot-field" data-netlify="true">
-	<input type="hidden" name="form-name" value="test" />
-	<!-- below orig commented out -->
-	<input type="text" name="bot-field" />
+	<p class="hidden">
+		<label>Don’t fill this out if you’re human: <input name="test" /></label>
+	</p>
 
 	<p>
 		<label>Your Name: <input type="text" name="name" /></label>
@@ -73,6 +73,10 @@
 </section>
 
 <style>
+	.hidden {
+		display: none;
+	}
+
 	.content {
 		width: 100%;
 		max-width: var(--column-width);
