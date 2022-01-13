@@ -43,9 +43,10 @@
 
 <!-- "/src/routes/test-form.svelte" -->
 
-<form name="test" method="post" netlify>
+<form name="test" method="post" netlify-honeypot="bot-field" data-netlify="true">
 	<input type="hidden" name="form-name" value="test" />
-	<!-- <input type="text" name="bot-field" />this one orig commented out -->
+	<!-- below orig commented out -->
+	<input type="text" name="bot-field" />
 
 	<p>
 		<label>Your Name: <input type="text" name="name" /></label>
