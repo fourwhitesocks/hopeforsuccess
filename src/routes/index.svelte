@@ -30,7 +30,7 @@
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+		I am a custom font <strong> YAY! I'm kinda cool!</strong>
 	</h2>
 
 	<h3>
