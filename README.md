@@ -1,9 +1,9 @@
 
-#SvelteKit sandbox
+**SvelteKit sandbox**
 
 ---
 
-##Contains:
+## Contains:
 
 1. JSON fields and output from simple headless cms called Just Fields
 2. Svelte animation
