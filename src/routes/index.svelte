@@ -9,25 +9,33 @@
 	import dogs from '$lib/data/dogs.json';
 	import { parse } from 'cookie';
 	import { loop_guard } from 'svelte/internal';
+	import { fly } from 'svelte/transition';
+
+	let y;
+	$: console.log(y);
 
 	//const post = group_1;
 </script>
+
+<svelte:window bind:scrollY={y} />
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+	{#if y >= 40}
+		<h1 transition:fly={{ x: -600, delay: 500, duration: 1000 }}>
+			<div class="welcome">
+				<picture>
+					<source srcset="svelte-welcome.webp" type="image/webp" />
+					<img src="svelte-welcome.png" alt="Welcome" />
+				</picture>
+			</div>
 
-		to your new<br />SvelteKit app
-	</h1>
+			to your new<br />SvelteKit app
+		</h1>
+	{/if}
 
 	<h2>
 		I am a custom font <strong> YAY! I'm kinda cool!</strong>
