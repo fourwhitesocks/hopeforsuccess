@@ -11,7 +11,7 @@
 4. Netlify form
 5. Simple GSAP 
 6. Svelte Hamburger plugin
-7. Custom fonts (not working yet)
+7. Custom fonts 
 
 
 
