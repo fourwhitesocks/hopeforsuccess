@@ -22,8 +22,8 @@
 @font-face {
 	font-family: 'Poetsen One';
 	src: local('Poetsen One'), local('PoetsenOne-Regular'),
-	url('PoetsenOne-Regular.woff2') format('woff2'),
-	url('PoetsenOne-Regular.woff') format('woff');
+	url('/fonts/PoetsenOne-Regular.woff2') format('woff2'),
+	url('/fonts/PoetsenOne-Regular.woff') format('woff');
 }  
 
 h2 {font-family: 'Poetsen One';} 
