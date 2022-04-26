@@ -10,6 +10,7 @@
 	import { parse } from 'cookie';
 	import { loop_guard } from 'svelte/internal';
 	import { fly } from 'svelte/transition';
+	import Title from '$lib/title.svelte';
 
 	let y;
 	$: console.log(y);
@@ -37,6 +38,7 @@
 		</h1>
 	{/if}
 
+	<Title />
 	<h2>
 		I am a custom font <strong> YAY! I'm kinda cool!</strong>
 	</h2>

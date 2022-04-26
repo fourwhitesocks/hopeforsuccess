@@ -14,9 +14,15 @@
 	export const prerender = true;
 </script>
 
+<script>
+	import Title from '$lib/title.svelte';
+</script>
+
 <svelte:head>
 	<title>About</title>
 </svelte:head>
+
+<Title title="New title for About Page" />
 
 <div class="content">
 	<h1>About this app</h1>
