@@ -37,7 +37,7 @@
 			to your new<br />SvelteKit app
 		</h1>
 	{/if}
-
+	<!-- below component is not passing anything so it will get the default value inside where the child is born lol -->
 	<Title />
 	<h2>
 		I am a custom font <strong> YAY! I'm kinda cool!</strong>

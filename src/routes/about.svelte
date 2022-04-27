@@ -15,14 +15,22 @@
 </script>
 
 <script>
+	import Index from '$lib/Counter/index.svelte';
 	import Title from '$lib/title.svelte';
+	import Burger from './burger.svelte';
+	import Layout from './__layout.svelte';
+	const obj = {
+		name: 'lhotse',
+		email: 'info@info.com'
+	};
 </script>
 
 <svelte:head>
 	<title>About</title>
 </svelte:head>
-
-<Title title="New title for About Page" />
+<!-- in this case below we are passing the prop of title (and we changed it) to the child -->
+<!-- notice how it's using the ...spread for the object except here vscode is removing the ...obj -->
+<Title title="New title for About Page" {obj} />
 
 <div class="content">
 	<h1>About this app</h1>
