@@ -17,11 +17,16 @@
     {
         "species": "Border",
         "age": "2",
-        "fav_food": ""
+        "fav_food": "fish"
     },
     {
         "species": "Husky",
         "age": "4",
         "fav_food": "Hot dogs"
+    },
+    {
+        "species": "Corgi",
+        "age": "2",
+        "fav_food": "people food"
     }
 ]
