@@ -12,6 +12,7 @@
 5. Simple GSAP 
 6. Svelte Hamburger plugin
 7. Custom fonts 
+8. About page has example of passing props and spread props
 
 
 
