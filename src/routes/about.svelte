@@ -34,9 +34,10 @@
 <!-- in this case below we are passing the prop of title (and we changed it) to the child -->
 <!-- notice how it's using the ...spread for the object except here vscode is removing the ...obj -->
 <!-- not sure why the breed part isn't showing on front end -->
+<!-- caps affect the variable too look at name in first instance -->
 <Title title="New title for About Page" name={obj.name} email={obj.email} breed={obj.breed} />
-
-<Title title="New title for About Page" breed="draft" {obj} />
+<!-- this is the spread way it's the same as {...obj} -->
+<Title {obj} />
 
 <div class="content">
 	<h1>About this app</h1>
